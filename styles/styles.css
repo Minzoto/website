@@ -10723,14 +10723,18 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.size-image-app {
-  width: 13rem;
-  height: 13rem;
+.container-content {
+  margin-top: 40;
+  margin-bottom: 40;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
 }
 
 .size-image {
-  width: 15rem;
-  height: 15rem;
+  width: 10rem;
 }
 
 .label--font {
