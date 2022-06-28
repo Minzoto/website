@@ -10723,10 +10723,30 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.size-image-app {
+  width: 13rem;
+  height: 13rem;
+}
+
+.size-image {
+  width: 15rem;
+  height: 15rem;
+}
+
 .label--font {
   font-family: "Poppins";
   font-size: 50;
-  font-weight: normal;
+  font-weight: 500;
+}
+
+.contenire__des {
+  font-family: "Poppins";
+  font-size: 27;
+  font-weight: lighter;
+}
+
+.magasin-line {
+  margin-top: 4vh;
 }
 
 /*# sourceMappingURL=styles.css.map */
