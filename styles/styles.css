@@ -10728,9 +10728,8 @@ textarea.form-control-lg {
   margin-bottom: 40;
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
+.marginR {
+  margin-left: -50 !important;
 }
 
 .size-image {
