@@ -57,23 +57,21 @@
 @import "utilities/api";
 // scss-docs-end import-stack
 
+body{
+	font-family:'Poppins' ;
+	//font-size: 50;
+	font-weight: 500;
+} 
 .container-content{
 	margin-top: 40;
 	margin-bottom: 40;
 }
 
-.marginR{
-	margin-left: -50 !important;
-}
 
 .size-image{
 	width: 10rem;
 }
-.label--font{
-	font-family:'Poppins' ;
-	font-size: 50;
-	font-weight: 500;
-}
+
 .contenire__des{
 	font-family:'Poppins' ;
 	font-size: 27;
@@ -82,4 +80,12 @@
 .magasin-line{
 	margin-top: 4vh;
 	
+}
+.font-size-x{
+	font-size: normal;
+	text-align: left;
+	a{
+		text-decoration: none;
+		color: black;
+	}
 }

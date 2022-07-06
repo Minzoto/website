@@ -6553,6 +6553,20 @@ textarea.form-control-lg {
     mask-position: -200% 0%;
   }
 }
+@media screen and (max-width: 960px) {
+  .navbar-brand img {
+    width: 80px;
+    height: 29px;
+  }
+  .font-size-x {
+    font-size: medium;
+    text-align: left;
+  }
+  .font-size-x a {
+    text-decoration: none;
+    color: black;
+  }
+}
 .clearfix::after {
   display: block;
   clear: both;
@@ -10723,23 +10737,18 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
 .container-content {
   margin-top: 40;
   margin-bottom: 40;
 }
 
-.marginR {
-  margin-left: -50 !important;
-}
-
 .size-image {
   width: 10rem;
-}
-
-.label--font {
-  font-family: "Poppins";
-  font-size: 50;
-  font-weight: 500;
 }
 
 .contenire__des {
@@ -10750,6 +10759,15 @@ textarea.form-control-lg {
 
 .magasin-line {
   margin-top: 4vh;
+}
+
+.font-size-x {
+  font-size: normal;
+  text-align: left;
+}
+.font-size-x a {
+  text-decoration: none;
+  color: black;
 }
 
 /*# sourceMappingURL=styles.css.map */
